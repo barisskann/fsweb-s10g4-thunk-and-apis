@@ -16,3 +16,20 @@ code {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.head {
+  background: rgba(182, 21, 21, 0.367);
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.btnn {
+  background-color: rgb(46, 82, 213);
+  color: white;
+  border: 1px solid black;
+}
+.btnn:hover {
+  background-color: blue;
+  color: white;
+}
+.item:last-child {
+  margin-bottom: 3rem;
+}
